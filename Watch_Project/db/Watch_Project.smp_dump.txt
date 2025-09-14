@@ -1,0 +1,7 @@
+
+State Machine - |Project3_Task1_WATCH|Project2_Task7_COUNTDOWN:countdown|LED_CONTROL_FSM:beeper|state
+Name state.LOCK state.ON state.OFF state.INIT 
+state.INIT 0 0 0 0 
+state.OFF 0 0 1 1 
+state.ON 0 1 0 1 
+state.LOCK 1 0 0 1 

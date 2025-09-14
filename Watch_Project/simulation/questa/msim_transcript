@@ -1,0 +1,212 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do Watch_Project_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/22.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project {C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/MUX.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:33:38 on May 15,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project" C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/MUX.v 
+# -- Compiling module MUX21
+# -- Compiling module MUX42
+# -- Compiling module DEMUX4
+# -- Compiling module DEMUX6
+# -- Compiling module HEX_3MUX_MODE
+# 
+# Top level modules:
+# 	MUX21
+# 	MUX42
+# 	DEMUX4
+# 	DEMUX6
+# 	HEX_3MUX_MODE
+# End time: 23:33:38 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project {C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Counter.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:33:38 on May 15,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project" C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Counter.v 
+# -- Compiling module INITIAL_COUNTER
+# -- Compiling module COUNTER
+# -- Compiling module COUNTER_INPUT
+# -- Compiling module COUNTER_STOPWATCH_TICK
+# -- Compiling module COUNTER_STOPWATCH
+# -- Compiling module COUNTER_PARAMETER
+# -- Compiling module COUNTER_COUNTERDOWN_TICK
+# -- Compiling module COUNTER_DOWN
+# -- Compiling module COUNTER_RESET
+# -- Compiling module COUNTER_RESET_DELAY
+# -- Compiling module COUNTER_UP_DOWN_SPEED
+# -- Compiling module COUNTER_UP_DOWN_SPEED_MODE
+# -- Compiling module COUNTER_HOLD
+# -- Compiling module COUNTER_UP_DOWN
+# -- Compiling module COUNTER_DIRECTION
+# 
+# Top level modules:
+# 	INITIAL_COUNTER
+# 	COUNTER
+# 	COUNTER_INPUT
+# 	COUNTER_STOPWATCH_TICK
+# 	COUNTER_STOPWATCH
+# 	COUNTER_PARAMETER
+# 	COUNTER_COUNTERDOWN_TICK
+# 	COUNTER_DOWN
+# 	COUNTER_RESET
+# 	COUNTER_RESET_DELAY
+# 	COUNTER_UP_DOWN_SPEED
+# 	COUNTER_UP_DOWN_SPEED_MODE
+# 	COUNTER_HOLD
+# 	COUNTER_UP_DOWN
+# 	COUNTER_DIRECTION
+# End time: 23:33:38 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project {C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Buttom.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:33:39 on May 15,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project" C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Buttom.v 
+# -- Compiling module RisingEdgeDetector
+# -- Compiling module Toggle
+# -- Compiling module BUTTOM_TOGGLED
+# -- Compiling module BUTTON_CONTROL
+# -- Compiling module BUTTON_CONTROL_STOPWATCH
+# -- Compiling module MODE_SWITCH
+# -- Compiling module FASTADVANCE
+# -- Compiling module MODE
+# -- Compiling module IFADVANCE_TOGGLE_ON_HOLD_CYCLE
+# -- Compiling module BUTTON_SHORT_PULSE_LONG_PULSE
+# -- Compiling module IFADVANCE_TOGGLE_ON_HOLD
+# -- Compiling module IFADVANCE
+# -- Compiling module DEBOUNCE
+# -- Compiling module Bottom_Switch_SPEED_UP_DOWN_HOLD_1
+# -- Compiling module Buttom_toggled_hold
+# -- Compiling module Bottom_Switch_SPEED_UP_DOWN_HOLD_2
+# 
+# Top level modules:
+# 	BUTTOM_TOGGLED
+# 	BUTTON_CONTROL
+# 	BUTTON_CONTROL_STOPWATCH
+# 	MODE_SWITCH
+# 	IFADVANCE_TOGGLE_ON_HOLD_CYCLE
+# 	BUTTON_SHORT_PULSE_LONG_PULSE
+# 	IFADVANCE_TOGGLE_ON_HOLD
+# 	Bottom_Switch_SPEED_UP_DOWN_HOLD_1
+# 	Bottom_Switch_SPEED_UP_DOWN_HOLD_2
+# End time: 23:33:39 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project {C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Project1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:33:42 on May 15,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project" C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Project1.v 
+# -- Compiling module Project1_Task1
+# -- Compiling module Project1_Task3
+# -- Compiling module Project1_Task4_Watch
+# -- Compiling module Project1_Task4_Time
+# -- Compiling module Project1_Task5_jdoodle
+# -- Compiling module Project1_Task5_Watch
+# -- Compiling module Project1_Task5_Time
+# -- Compiling module Project1_Task6_Time
+# -- Compiling module Project1_Task7_Time
+# -- Compiling module Project1_Task8_Watch
+# -- Compiling module Project1_Tash10_COUNTER_UP_DOWN
+# -- Compiling module Project1_Task11_Bottom_Switch_UP_DOWN_HOLD
+# -- Compiling module Project1_Task12_COUNTER_HOLD
+# -- Compiling module Project1_Task13_Bottom_Switch_SPEED_UP_DOWN_HOLD
+# -- Compiling module Project1_Task15_IFADVANCE
+# -- Compiling module Project1_Task15_Bottom_Switch_SPEED_UP_DOWN_HOLD
+# -- Compiling module Task16_FLASH
+# -- Compiling module Project1_Task17_Watch
+# -- Compiling module Project1_Task18_Watch
+# -- Compiling module Project1_Task19_IFADVANCE_TOGGLE_ON_HOLD_CYCLE
+# -- Compiling module Project1_Task20_Watch
+# -- Compiling module Project2_Task1_Watch
+# -- Compiling module Project2_Task2_BUTTON_CONTROL
+# -- Compiling module Project2_Task2_FASTADVANCE
+# -- Compiling module Project2_Tash2_MODE
+# -- Compiling module Proect2_Task2_Flash_Control
+# -- Compiling module Project2_Task3_BinToDec
+# -- Compiling module Project2_Task3_SSEG_DECODER
+# -- Compiling module Project2_Task4_FLASH_CONTROL
+# -- Compiling module Project2_Task5_WATCH
+# -- Compiling module PROJECT2_TASK5_TIME
+# -- Compiling module Project2_Task6_StopWatch
+# -- Compiling module Project2_Task7_COUNTDOWN
+# -- Compiling module Project3_Task1_WATCH
+# 
+# Top level modules:
+# 	Project1_Task1
+# 	Project1_Task3
+# 	Project1_Task4_Watch
+# 	Project1_Task4_Time
+# 	Project1_Task5_jdoodle
+# 	Project1_Task5_Watch
+# 	Project1_Task5_Time
+# 	Project1_Task6_Time
+# 	Project1_Task8_Watch
+# 	Project1_Tash10_COUNTER_UP_DOWN
+# 	Project1_Task11_Bottom_Switch_UP_DOWN_HOLD
+# 	Project1_Task12_COUNTER_HOLD
+# 	Project1_Task13_Bottom_Switch_SPEED_UP_DOWN_HOLD
+# 	Project1_Task15_Bottom_Switch_SPEED_UP_DOWN_HOLD
+# 	Task16_FLASH
+# 	Project1_Task17_Watch
+# 	Project1_Task18_Watch
+# 	Project1_Task19_IFADVANCE_TOGGLE_ON_HOLD_CYCLE
+# 	Project1_Task20_Watch
+# 	Project2_Task1_Watch
+# 	Project2_Task2_BUTTON_CONTROL
+# 	Project2_Task2_FASTADVANCE
+# 	Project2_Tash2_MODE
+# 	Proect2_Task2_Flash_Control
+# 	Project2_Task3_BinToDec
+# 	Project2_Task3_SSEG_DECODER
+# 	Project2_Task4_FLASH_CONTROL
+# 	Project2_Task5_WATCH
+# 	Project3_Task1_WATCH
+# End time: 23:33:42 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project {C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Digital_Display.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 23:33:43 on May 15,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/AshTrailer/Desktop/Quartus/Watch_Project" C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Digital_Display.v 
+# -- Compiling module SSEG
+# -- Compiling module FLASH
+# -- Compiling module SSEG_FLASH
+# -- Compiling module FLASH_CONTROL
+# -- Compiling module FLASH_CONTROL_STOPWATCH
+# -- Compiling module FLASH_CONTROL_COUNTDOWN
+# -- Compiling module BINTODEC
+# -- Compiling module BINTODEC_STOP
+# -- Compiling module SSEG_DECODER
+# -- Compiling module LED_CONTROL_FSM
+# 
+# Top level modules:
+# 	SSEG
+# 	FLASH_CONTROL
+# 	FLASH_CONTROL_STOPWATCH
+# 	FLASH_CONTROL_COUNTDOWN
+# 	SSEG_DECODER
+# 	LED_CONTROL_FSM
+# End time: 23:33:43 on May 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Load canceled

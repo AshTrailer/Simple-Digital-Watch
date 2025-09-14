@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Counter.v(95): object "HOLD" differs only in case from object "hold" in the same scope File: C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Counter.v Line: 95
+Info (10281): Verilog HDL Declaration information at Project1.v(929): object "KEY0" differs only in case from object "key0" in the same scope File: C:/Users/AshTrailer/Desktop/Quartus/Watch_Project/Project1.v Line: 929
