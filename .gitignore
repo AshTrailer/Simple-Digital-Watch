@@ -138,12 +138,6 @@ ENV/
 *.dwo
 
 # =========================
-# Misc
-# =========================
-*.tmp
-*.cache
-
-# =========================
 # Intel Quartus / FPGA
 # =========================
 db/
@@ -156,24 +150,8 @@ hps_isw_handoff/
 qdb/
 .qdb/
 
-# Database & temp files
-*.rdb
-*.smsg
-*.qmsg
-*.jdi
-*.qpf.bak
-*.qsf.bak
-*.qdf
-*.ddb
-*.db_info
-*.srf
-*.cdb
-*.bak.sdc
-*.sopcinfo
-*.qarlog
-*.qar
-*.sld
-*.bsf
-*.ppf
-*.htm
-*.html
+# =========================
+# Misc
+# =========================
+*.tmp
+*.cache
